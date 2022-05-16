@@ -5,18 +5,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
-
-
-
-
 }
-
-
-/* body {
-    margin: 0;
-    padding: 0;
-} */
 
 .grid-container {
     display: grid;
@@ -60,9 +49,8 @@ h3 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: rgb(123, 104, 238);
+    background-color: #746cc0;
     padding: 10px;
-
 }
 
 
@@ -75,7 +63,6 @@ h3 {
     height: 38px;
     width: 38px;
     border-radius: 50%;
-
 }
 
 .student {
@@ -84,15 +71,11 @@ h3 {
     margin: 0px;
 }
 
-
-
 .bell {
     height: 23px;
     width: 23px;
     margin-top: 5px;
-
     fill: white;
-
 }
 
 .bell-container {
@@ -108,15 +91,12 @@ h3 {
     width: 5px;
     background-color: lightgreen;
     border-radius: 50%;
-
 }
 
 .bell-container:hover {
     transform: scale(1.2);
     transition: .3s ease-out;
     transition: transform .2s ease-out;
-
-
 }
 
 .bell-container:hover .bell {
@@ -126,16 +106,12 @@ h3 {
 .bell-container,
 .bell {
     transition: .3s ease-out;
-
 }
-
 
 .line {
     height: 38px;
     width: .1px;
     background-color: darkgrey;
-
-
 }
 
 
@@ -151,17 +127,17 @@ h3 {
     display: flex;
     justify-content: space-evenly;
     padding: 10px 5px;
-    background-color: rgb(72, 61, 139);
+    background-color: #483d8b;
 }
 
 .icon {
     height: 30px;
     width: 30px;
     fill: white;
-    /* margin-bottom: 10px; */
 }
 
 /*----------------- Dashboard ---------------------*/
+
 .main-header {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -170,9 +146,9 @@ h3 {
 .tab {
     padding-bottom: 50px;
     margin-left: 9px;
-    border-left: 1px solid rgb(169, 169, 169);
-    border-bottom: 1px solid rgb(169, 169, 169);
-    background-color: rgb(220, 220, 220);
+    border-left: 1px solid #bebebe;
+    border-bottom: 1px solid #bebebe;
+    background-color: #f2f3f4;
 }
 
 .headline {
@@ -181,17 +157,17 @@ h3 {
 }
 
 /*----------------- Alert ---------------------*/
+
 .alert-banner {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(123, 104, 238);
+    background-color: #746cc0;
     padding: 10px 10px;
     margin: 15px;
     color: white;
     border-radius: 8px;
     padding-left: 0px;
     font-size: 14px;
-
 }
 
 .alert-banner-close {
@@ -217,9 +193,10 @@ h3 {
 }
 
 .active {
-    background-color: lightgreen;
+    background-color: #74c365;
     border-radius: 20px;
     padding: 7px 10px;
+    color: white;
 }
 
 .widget-container-full,
@@ -231,7 +208,6 @@ h3 {
 
 .widget-container-full,
 .widget-container-half {
-    /* border-bottom: 1px solid rgb(169, 169, 169); */
     padding-bottom: 15px;
 }
 
@@ -245,7 +221,7 @@ h3 {
 
 .borderLineTraffic {
     margin-bottom: 5px;
-    border-bottom: 1px solid rgb(169, 169, 169);
+    border-bottom: 1px solid #bebebe;
     width: 100%
 }
 
@@ -254,49 +230,31 @@ h3 {
 }
 
 
-
-
-
 /*----------------- Social Stats ---------------------*/
 .social-stats {
     padding-bottom: 0px;
 }
 
-
-
 .stats-box {
     display: flex;
     flex-direction: column;
     padding: 0px;
-
-
 }
-
-/* .social-pic {
-    height: 80px;
-    width: 80px;
-    background-color: rgb(123,104,238);
-  
-  border: 15px solid rgb(123,104,238);
-  border-radius: 100%;
-  fill: white;
-} */
 
 .social-container {
     display: flex;
     align-items: center;
 
-    border: 1px solid rgb(169, 169, 169);
+    border: 1px solid #bebebe;
     margin: 12px 15px 0px 15px;
-    background-color: rgb(220, 220, 220);
+    background-color: #f2f3f4;
+    border-radius: 8px;
 }
 
 .social-image {
 
     padding: 15px;
     margin-left: 20px;
-
-
 }
 
 .social-text {
@@ -305,18 +263,18 @@ h3 {
 
 .logo {
     font-size: 18px;
-    color: rgb(123, 104, 238);
+    color: #746cc0;
 }
 
 .followers {
     font-size: 40px;
-    color: rgb(169, 169, 169);
+    color: #696969;
 }
 
 .social-image {
     height: 65px;
     width: 65px;
-    background: rgb(123, 104, 238);
+    background: #746cc0;
     display: flex;
     border-radius: 50%;
     fill: white;
@@ -325,15 +283,11 @@ h3 {
 .borderLineSocial {
     margin-top: 12px;
     margin-bottom: 5px;
-    border-bottom: 1px solid rgb(169, 169, 169);
+    border-bottom: 1px solid #bebebe;
     width: 100%
 }
 
 /*----------------- New Members / Recent Activity ---------------------*/
-
-/* .newMembers {
-    padding-top: 2px;
-} */
 
 
 .members {
@@ -354,17 +308,14 @@ h3 {
 }
 
 
-
 .members-container {
     padding: 20px;
-    /* border-bottom: 1px solid rgb(169, 169, 169);
-    width: 100% */
 }
 
 .shorter-border-line {
     padding: 20px;
     width: 90%;
-    border-bottom: 1px solid rgb(169, 169, 169);
+    border-bottom: 1px solid #bebebe;
 }
 
 .transparent-Shorter-border-line {
@@ -375,7 +326,7 @@ h3 {
 
 .borderLineMembers {
     margin-bottom: 5px;
-    border-bottom: 1px solid rgb(169, 169, 169);
+    border-bottom: 1px solid #bebebe;
     width: 100%
 }
 
@@ -390,11 +341,6 @@ h3 {
     margin-bottom: 5px;
 }
 
-.inline-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .greaterThan {
     display: none;
@@ -402,16 +348,46 @@ h3 {
 
 .borderLineRecent {
     margin-bottom: 5px;
-    border-bottom: 1px solid rgb(169, 169, 169);
+    border-bottom: 1px solid #bebebe;
     width: 100%
 }
 
+.recentLines {
+    text-align: center;
+}
 
+.recentParagraphs {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.lastLine {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+.email {
+    color: #746cc0;
+}
 
 /*----------------- Message User ---------------------*/
+
 .placeHolder {
     display: flex;
     flex-grow: 1;
+
+}
+
+::placeholder {
+    color: #bebebe;
 }
 
 .message-container {
@@ -419,40 +395,34 @@ h3 {
     flex-direction: column;
 }
 
-
-
 .form-field {
-    background-color: rgb(220, 220, 220);
-    color: rgb(169, 169, 169);
+    background-color: #f2f3f4;
+    color: #bebebe;
     padding: 15px;
 }
 
 .form-area {
     padding: 15px 15px 90px 15px;
-    background-color: rgb(220, 220, 220);
-    color: rgb(169, 169, 169);
+    background-color: #f2f3f4;
+    color: #bebebe;
 }
 
 .button-primary {
-    background-color: rgb(123, 104, 238);
+    background-color: #746cc0;
     padding: 15px;
     color: white;
-
 }
-
-
 
 input:focus,
 textarea:focus {
-    border: 3px solid #555;
+    border: 3px solid #bebebe;
     outline: none;
-
 }
 
 .borderLineMessageing {
     margin-top: 10px;
     margin-bottom: 5px;
-    border-bottom: 1px solid rgb(169, 169, 169);
+    border-bottom: 1px solid #bebebe;
     width: 100%
 }
 
@@ -461,7 +431,7 @@ textarea:focus {
 .form-field,
 .form-area,
 .button-primary {
-    border: 1px solid rgb(169, 169, 169);
+    border: 1px solid #bebebe;
     font-size: 16px;
     border-radius: 8px;
     margin: 10px 15px;
@@ -477,7 +447,6 @@ textarea:focus {
 .form-field {
     display: flex;
     flex-grow: 1;
-
 }
 
 .time-zone {
@@ -497,7 +466,7 @@ textarea:focus {
 }
 
 #cancel {
-    background-color: grey;
+    background-color: #acacac;
     margin-left: 9px;
 }
 
@@ -505,23 +474,12 @@ textarea:focus {
     margin-right: 9px;
 }
 
-/* .clicker:focus {
-    border: 3px solid #555;
-    outline: none;
-} */
-
 select:focus {
-    border: 3px solid #555;
+    border: 3px solid #bebebe;
     outline: none;
 }
 
-
-
 /*----------------- Switches ---------------------*/
-
-/* .setting {
-    margin: initial;
-  }  */
 
 .switch-ios {
     display: flex;
@@ -547,44 +505,21 @@ select:focus {
 }
 
 .switch-candy a {
-    background-color: #8e8adb;
+    background-color: #746cc0;
 }
 
 .switch-ios.switch-light input:checked~span {
-    border-color: #8e8adb;
-    box-shadow: inset 0 0 0 30px #8e8adb;
+    border-color: #746cc0;
+    box-shadow: inset 0 0 0 30px #746cc0;
 }
 
 .switch-ios.switch-light input:checked~span a {
-    border-color: #8e8adb;
+    border-color: #746cc0;
 }
 
 strong {
     margin-left: 15px;
 }
-
-
-/*----------------- Extras ---------------------*/
-
-/* .widget-container-full, .widget-container-half {
-    width: 95vw;
-    } */
-
-
-
-/*----------------- Grid ---------------------*/
-
-
-/* .traffic {
-        grid-area: lineChart;
-    }
-    .chartBox {
-        grid-area: bar;
-    }
-    .mobile {
-        grid-area: doughnut;
-    } */
-
 
 /*-------------------------------------- MEDIA QUERIES ------------------------------*/
 
@@ -597,16 +532,6 @@ strong {
         font-size: 16px;
         margin-top: 13px;
     }
-
-    /* .switch-light {
-        width: 120%;
-    } */
-    /* .main {
-        margin-right: 300px;
-    } */
-
-
-
 
     /* ------------------------ Grid ------------------------*/
 
@@ -649,12 +574,9 @@ strong {
         display: flex;
         justify-content: flex-end;
         padding: 15px 10px;
-
     }
 
     /*----------------- Nav-Bar ---------------------*/
-
-
 
     .nav-container {
         display: flex;
@@ -678,14 +600,12 @@ strong {
         grid-template-columns: 1fr 6fr;
     }
 
-
-
     /*----------------- Chart Widgets ---------------------*/
 
-
     .traffic-header {
-       margin-top: 7px;
+        margin-top: 7px;
     }
+
     .traffic-nav {
         display: flex;
         justify-content: flex-end;
@@ -701,8 +621,8 @@ strong {
 
     .littleCharts {
         display: flex;
-        border-top: 1px solid rgb(169, 169, 169);
-        border-bottom: 1px solid rgb(169, 169, 169);
+        border-top: 1px solid #bebebe;
+        border-bottom: 1px solid #bebebe;
     }
 
     .widget-container-full {
@@ -716,14 +636,12 @@ strong {
     }
 
     .mobile {
-        border-left: 1px solid rgb(169, 169, 169);
+        border-left: 1px solid #bebebe;
         padding-bottom: 10px;
     }
 
-
     .mobile {
         margin: 0 15px;
-
     }
 
     .widget-container-full,
@@ -734,7 +652,7 @@ strong {
 
     .borderLineTraffic {
         margin-bottom: 5px;
-        border-bottom: 1px solid rgb(169, 169, 169);
+        border-bottom: 1px solid #bebebe;
         width: 0%
     }
 
@@ -742,37 +660,23 @@ strong {
         margin-top: 13px;
     }
 
-
-
     /*----------------- Social Stats ---------------------*/
 
     .stats-box {
-        /* display: flex; */
         flex-direction: row;
-        border-bottom: 1px solid rgb(169, 169, 169);
+        border-bottom: 1px solid #bebebe;
         padding-bottom: 1px;
-
-
-
     }
 
     .social-container {
-        /* padding: 0px 14px; */
         display: flex;
         flex-grow: 1;
-
         justify-content: center;
         margin: 11px 5px 11px 5px;
-
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
-
     }
 
     .social-1 {
         margin-left: 15px;
-
     }
 
     .social-3 {
@@ -795,7 +699,7 @@ strong {
 
     .followers {
         font-size: 40px;
-        color: rgb(169, 169, 169);
+        color: #bebebe;
     }
 
     .social-image {
@@ -812,11 +716,7 @@ strong {
         margin-bottom: 0px;
         border-bottom: 0px;
         width: 0px;
-
-
     }
-
-
 
     /*----------------- New Members / Recent Activity ---------------------*/
 
@@ -829,8 +729,9 @@ strong {
 
     }
 
-    .members-text {
-        margin-left: 10px;
+    .members-text,
+    .recentParagraphs {
+        margin-left: 15px;
         font-size: 13px;
     }
 
@@ -838,7 +739,6 @@ strong {
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
-
     }
 
     .dates {
@@ -851,19 +751,18 @@ strong {
         display: flex;
         flex-direction: row;
         align-items: center;
-        /* justify-content: center; */
     }
 
     .members-container {
         padding: 20px 0px 20px 20px;
-        border-bottom: 1px solid rgb(169, 169, 169);
+        border-bottom: 1px solid #bebebe;
         width: 100%
     }
 
     .shorter-border-line {
         padding: 20px 0px 20px 0px;
         width: 94%;
-        border-bottom: 1px solid rgb(169, 169, 169);
+        border-bottom: 1px solid #bebebe;
         margin-left: 15px;
         margin-right: 15px;
     }
@@ -876,10 +775,6 @@ strong {
         margin-right: 15px;
     }
 
-    .inline-text {
-        display: flex;
-        flex-direction: row;
-    }
 
     .greaterThan {
         display: flex;
@@ -892,9 +787,12 @@ strong {
         padding-bottom: 0px;
     }
 
-    /* .recentHeadLine {
-        padding: 0px;
-    } */
+    .lastLine {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
 
     /*----------------- Settings ---------------------*/
     .switch-ios.switch-light strong {
@@ -906,34 +804,27 @@ strong {
     .borderLineMessageing {
         margin-bottom: 0px;
     }
-
-
 }
 
 /* -------------------------------------- 1024px ----------------------------------*/
 
-
-/*----------------- General ---------------------*/
-
-h3 {
-    font-size: 18px;
-    margin-top: 17px;
-    margin-left: 16px;
-}
-
-
-/*--------------------------- Grid ----------------------------*/
-
 @media (min-width: 1024px) {
 
+    /*----------------- General ---------------------*/
+
+    h3 {
+        font-size: 18px;
+        margin-top: 17px;
+        margin-left: 16px;
+    }
+
+
+    /*--------------------------- Grid ----------------------------*/
 
     .newMembers,
     .message {
         grid-column: 1 / span 1;
     }
-
-
-
 
     .traffic-nav,
     .recentActivity,
@@ -943,63 +834,40 @@ h3 {
 
     /*----------------- header  ---------------------*/
     .header-container {
-
         padding: 20px;
-
     }
 
 
     .title {
         font-size: 24px;
-
     }
 
     .woman {
         height: 43px;
         width: 43px;
-
-
     }
 
     .student {
         font-size: 14px;
-
     }
-
-
 
     .bell {
         height: 26px;
         width: 26px;
         margin-top: 6px;
-
-
-
     }
 
-
-
     .icon-circle {
-
         bottom: 30px;
         left: 20px;
         height: 6px;
         width: 6px;
-
-
     }
-
-
-
 
     .line {
         height: 43px;
         width: .2px;
-
-
-
     }
-
 
     .woman,
     .bell,
@@ -1010,15 +878,12 @@ h3 {
     /*----------------- nav ---------------------*/
 
     .nav-container {
-
         padding: 12px 10px;
-
     }
 
     .icon {
         height: 35px;
         width: 35px;
-
     }
 
     /*----------------- Dashboard ---------------------*/
@@ -1030,26 +895,23 @@ h3 {
     .tab {
         padding-bottom: 60px;
         margin-left: 12px;
-       
     }
-    
+
     .headline {
         font-size: 20px;
         padding-top: 15px;
     }
 
     /*----------------- Alert ---------------------*/
-.alert-banner {
-   
-    padding: 15px 12px;
-    margin: 16px;
-    color: white;
-    border-radius: 8px;
-    padding-left: 0px;
-    font-size: 17px;
+    .alert-banner {
+        padding: 15px 12px;
+        margin: 16px;
+        color: white;
+        border-radius: 8px;
+        padding-left: 0px;
+        font-size: 17px;
+    }
 
-}
-    
 
     /*----------------- Chart Widgets ---------------------*/
 
@@ -1065,7 +927,6 @@ h3 {
 
     .widget-container-full {
         width: 88vw;
-
     }
 
     .widget-container-half {
@@ -1081,82 +942,74 @@ h3 {
     /*----------------- Social Stats ---------------------*/
 
     .stats-box {
-        /* display: flex; */
         flex-direction: row;
-        border-bottom: 1px solid rgb(169, 169, 169);
+        border-bottom: 1px solid #bebebe;
         padding-bottom: 1px;
-
-
-
     }
 
     .social-container {
         display: flex;
         flex-grow: 1;
-
         justify-content: flex-start;
         margin: 14px 6px 14px 6px;
-
-       
-
     }
 
     .social-1 {
         margin-left: 16px;
-
     }
 
     .social-3 {
         margin-right: 16px;
     }
 
-
-
-
-    
-
     /*--------------------------- New Members / Recent Activity ----------------------------*/
 
     .newMembers {
-        border-right: 1px solid rgb(169, 169, 169);
-
+        border-right: 1px solid #bebebe;
     }
 
     .message {
         border-top: none;
-
     }
 
     .greaterThan {
         font-size: 16px;
     }
 
-    
-
     .profile-image {
-        
         height: 77px;
         width: 77px;
         margin-bottom: 5px;
     }
 
     .members-text,
-    .dates {
-        font-size: 12px;
+    .dates,
+    .recentParagraphs {
+        font-size: 13.5px;
     }
 
+    .recentLines {
+        text-align: left;
+    }
 
-    
+    .recentParagraphs {
+        margin-right: 20px;
+    }
+
+    .members-text,
+    .recentParagraphs {
+        margin-left: 16px;
+    }
 
     /*--------------------------- Messaging ----------------------------*/
     .message {
-        border-right: 1px solid rgb(169, 169, 169);
+        border-right: 1px solid #bebebe;
     }
 
     .borderLineMessageing {
         margin-top: 0px;
         margin-bottom: 0px;
-        border-bottom: 0px solid rgb(169, 169, 169);
+        border-bottom: 0px solid #bebebe;
         width: 0px;
     }
 
@@ -1169,7 +1022,7 @@ h3 {
     .shorter-border-line {
         padding: 22px 0px;
         width: 94%;
-        border-bottom: 1px solid rgb(169, 169, 169);
+        border-bottom: 1px solid #bebebe;
         margin-left: 16px;
         margin-right: 16px;
     }
@@ -1187,21 +1040,19 @@ h3 {
     }
 
     .notifications,
-.form-area,
-.form-field {
-    font-size: 17px;
-    margin-left: 16px;
-}
+    .form-area,
+    .form-field {
+        font-size: 17px;
+        margin-left: 16px;
+    }
 
-.form-field {
-    
-    padding: 18px;
-} 
+    .form-field {
+        padding: 18px;
+    }
 
-.form-area {
-    padding: 18px 18px 120px 18px;
-   
-} 
+    .form-area {
+        padding: 18px 18px 120px 18px;
+    }
 
     /*--------------------------- Settings ----------------------------*/
 
@@ -1219,17 +1070,11 @@ h3 {
     }
 
     .switch-light.switch-ios.switch-1 {
-     margin-top: 35px;
- }
- .switch-light.switch-ios.switch-2 {
-     margin-top: 22px;
-    margin-bottom: 27px;
-}
+        margin-top: 35px;
+    }
 
-
-
-
-
-
-
+    .switch-light.switch-ios.switch-2 {
+        margin-top: 22px;
+        margin-bottom: 27px;
+    }
 }
